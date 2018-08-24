@@ -13,7 +13,7 @@ namespace DBUtility
         private static SqlConnection sqlcon;
 
         /// <summary>
-        /// 获取一个可用于数据库操作的连接类
+        ///  获取一个可用于数据库操作的连接类
         /// </summary>
         private static SqlConnection Connection
         {
