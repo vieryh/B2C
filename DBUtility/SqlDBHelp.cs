@@ -37,7 +37,7 @@ namespace DBUtility
         /// <summary>
         /// 根据查询的语句返回执行受影响的行数
         /// </summary>
-        /// <param name="strsql">Insert、Update、Delete语句</param>
+        /// <param name="strsql">Insert、Update、Delete语句;</param>
         /// <returns>执行受影响的行数</returns>
         public static int GetExecute(string strsql)
         {
@@ -57,6 +57,7 @@ namespace DBUtility
             }
             return i;
         }
+
 
         /// <summary>
         /// 根据查询的语句返回执行受影响的行数
