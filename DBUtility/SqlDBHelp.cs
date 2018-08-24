@@ -85,7 +85,7 @@ namespace DBUtility
         }
 
         /// <summary>
-        /// 根据查询的语句获取查询的结果集
+        ///  根据查询的语句获取查询的结果集
         /// </summary>
         /// <param name="strsql">Select语句</param>
         /// <returns>查询的结果-表数据</returns>
